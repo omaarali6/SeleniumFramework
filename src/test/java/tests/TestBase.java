@@ -2,6 +2,7 @@ package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
@@ -41,6 +42,13 @@ public void startDriver(@Optional("chrome") String BrowserName)
 		String [] PhantomArgs = {"--web-security=no","--ignore-ssl-errors=yes"};
 		caps.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, PhantomArgs);
 		driver = new PhantomJSDriver(caps);
+	} else if (BrowserName.equalsIgnoreCase("headless-chrome"))
+	{
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "/Drivers/chromedriver.exe");
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		options.addArguments("--window-size=1920x1080");
+		driver = new ChromeDriver(options);
 	}
 	driver.navigate().to("https://demo.nopcommerce.com/");
 	
