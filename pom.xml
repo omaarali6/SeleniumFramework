@@ -25,11 +25,12 @@
     <version>7.7.1</version>
     <scope>test</scope>
 	</dependency>
-	<dependency>
+<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId> 	 	
-    <version>4.8.3</version>
-	</dependency>
+    <artifactId>selenium-java</artifactId>
+    <version>4.9.1</version>
+</dependency>
+
 	<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
@@ -70,6 +71,13 @@
     <artifactId>gherkin</artifactId>
     <version>26.2.0</version>
 </dependency>
+<dependency>
+    <groupId>com.codeborne</groupId>
+    <artifactId>phantomjsdriver</artifactId>
+    <version>1.4.4</version>
+</dependency>
+
+
 
 
   </dependencies>
