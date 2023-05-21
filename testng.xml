@@ -4,6 +4,7 @@
     <test name="Regression" preserve-order="false">
          <classes>
              <class name="tests.TestCurrencyChange"/>
+             <class name="tests.RegisterationTest_Faker"/>
           </classes>
      </test>
 </suite> 
