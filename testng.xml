@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Testing Nopcommerce Website">
+<suite name="Testing Nopcommerce Website 2">
 	<parameter name="Browser" value="headless-chrome"></parameter>
     <test name="Regression" preserve-order="false">
          <classes>
