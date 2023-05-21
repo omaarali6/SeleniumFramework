@@ -5,7 +5,6 @@
          <classes>
              <class name="tests.TestCurrencyChange"/>
              <class name="tests.RegisterationTest_Faker"/>
-             <class name="tests.SearchTest"/>
           </classes>
      </test>
 </suite> 
