@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing Nopcommerce Website 2">
+    <test name="Regression1">
+		<parameter name="Browser" value="chrome"></parameter>
+         <classes>
+             <class name="tests.TestCurrencyChange"/>
+             <class name="tests.RegisterationTest_Faker"/>
+          </classes>
+     </test>
+     <test name="Regression2">
+		<parameter name="Browser" value="firefox"></parameter>
+         <classes>
+             <class name="tests.TestCurrencyChange"/>
+             <class name="tests.RegisterationTest_Faker"/>
+          </classes>
+     </test>
+</suite> 
