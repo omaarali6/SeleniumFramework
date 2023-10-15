@@ -1,8 +1,17 @@
-# SeleniumFramework
-Selenium Framework using Java, Testng, Maven and POM
+This prject is about testing an E-Commerce website https://www.nopcommerce.com/en
 
-I'm using BDD and DDT frameworks :)
+The following testing techniques are used
 
-Test Push :)
+-Behaviour Driven Testing
+-Data Driven Testing
+
+The following tools are used
+
+-Selenium Webdriver
+-Testng
+-Maven
+-Cucumber
+-Faker Library
+-Eclipse
 
 
